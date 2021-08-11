@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #222629;
+    color: #FFF;
+    display: grid;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    grid-template: "head" "body";
+}
+
+h1 {
+    grid-area: head;
+    background-color: #378930;
+    color: #FFF;
+    padding: 1vw;
+    width: 100vw;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 3vw;
+}
+
+main {
+    grid-area: body;
+    text-align: justify;
+    margin-top: 2vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding: 2vw;
+    background-color: #474A4F;
+    color: #FCFCFE;
+    font-size: 1.2vw;
+    min-height: 70vh;
+    position: relative;
+}
+
+a {
+    color: salmon;
+}
+
+doc-container {
+    padding: 10px;
+    display: grid;
+    grid-template: "type command description";
+    grid-template-columns: 10% 15% 75%;
+    grid-row-gap: 2vh;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    color: black;
+    border: .3vw solid;
+    margin-bottom: 1.5vh;
+}
+
+doc-container.GET {
+    background-color: rgb(208, 238, 208);
+    border-color: mediumaquamarine;
+}
+
+doc-container.POST {
+    background-color: rgb(251, 241, 230);
+    border-color: goldenrod;
+}
+
+type {
+    color: white;
+    padding: .8vw;
+    text-align: center;
+}
+
+type.GET {
+    background-color: mediumaquamarine;
+}
+
+type.POST {
+    background-color: goldenrod;
+}
+
+command {
+    padding: .8vw;
+    text-align: justify;
+    font-size: 1.5vw;
+}
+
+description {
+    padding: .8vw;
+    text-align: justify;
+    font-size: 1.2vw;
+}
+
+#docs {
+    margin-bottom: 2vh;
+}
+
+p {
+    position: absolute;
+    bottom: 10px;
+}

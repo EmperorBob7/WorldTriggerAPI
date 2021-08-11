@@ -1,0 +1,22 @@
+{
+    "TachikawaSquad": {
+        "rank": "A",
+        "squadRank": 1,
+        "members": [{
+            "name": "Kei Tachikawa",
+            "gender": "Male",
+            "position": "Attacker",
+            "bloodType": "A",
+            "age": 20,
+            "birthday": "August 29th",
+            "zodiac": "wolf",
+            "stats": [6, 14, 9, 8, 2, 7, 2],
+            "statTotal": 56,
+            "soloRank": 1,
+            "positionRank": 1,
+            "faction": "Kido",
+            "height": 180,
+            "species": "Human"
+        }]
+    }
+}

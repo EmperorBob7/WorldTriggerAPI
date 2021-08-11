@@ -1,0 +1,22 @@
+{
+  "name": "worldtriggerapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmperorBob7/WorldTriggerAPI.git"
+  },
+  "author": "Emperor Bob",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmperorBob7/WorldTriggerAPI/issues"
+  },
+  "homepage": "https://github.com/EmperorBob7/WorldTriggerAPI#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
