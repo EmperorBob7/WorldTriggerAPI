@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/EmperorBob7/WorldTriggerAPI#readme",
   "dependencies": {
+    "bcrypt": "^5.0.1",
+    "better-sqlite3": "^7.4.3",
     "express": "^4.17.1"
   }
 }

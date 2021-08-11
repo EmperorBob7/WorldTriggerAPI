@@ -60,7 +60,7 @@ doc-container.GET {
 }
 
 doc-container.POST {
-    background-color: rgb(251, 241, 230);
+    background-color: rgb(231, 209, 186);
     border-color: goldenrod;
 }
 

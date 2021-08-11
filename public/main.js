@@ -6,9 +6,14 @@ const docInfo = [
         "JSON": "data.TachikawaSquad"
     },
     {
+        "type": "GET",
+        "command": "/getOC/{ID}",
+        "description": "Get an OC saved using my ocmaker with a unique ID."
+    },
+    {
         "type": "POST",
-        "command": "/test",
-        "description": "Deez Nuts"
+        "command": "/updateOC",
+        "description": "Update an OC"
     }
 ];
 
